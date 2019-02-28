@@ -1,0 +1,73 @@
+body {
+  text-align: center;
+  background-color: black;
+   /* original background-color: #011F3F; */
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+  padding-top: 3%;
+
+}
+
+.btn {
+  display: inline-block;
+  height: 250px;
+  width: 250px;
+  border: 5px solid black;
+  /* border-radius: 20%; */
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 40%;
+}
+
+.green {
+  background-color: green;
+  border-top-left-radius: 100%;
+  border-bottom-right-radius: 40%;
+}
+
+.blue {
+  background-color: blue;
+  border-bottom-right-radius:100%;
+  border-top-left-radius: 40%;
+}
+
+.yellow {
+  background-color: yellow;
+  border-bottom-left-radius: 100%;
+  border-top-right-radius: 40%;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.decorative-circle{
+  display: inline-block;
+  position: absolute;
+  width: 225px;
+  height: 225px;
+  background-color: black;
+  border-radius: 100%;
+  right: 575px;
+  bottom: 220px;
+}
