@@ -77,7 +77,7 @@ function nextSequence(){
 }
 
 function playSound(name){
-  var colourSound = new Audio('/sounds/' + name + '.mp3');
+  var colourSound = new Audio('sounds/' + name + '.mp3');
   colourSound.play();
 }
 
