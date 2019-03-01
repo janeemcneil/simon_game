@@ -11,6 +11,11 @@ body {
   color: #FEF2BF;
 }
 
+.giphy-embed{
+  width: 20%;
+  text-color: black;
+}
+
 .container {
   display: block;
   width: 50%;

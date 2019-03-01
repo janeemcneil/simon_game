@@ -4,6 +4,7 @@ var gamePattern = [];
 var userClickedPattern = [];
 var level = 0;
 
+$(".container").hide();
 startGame();
 
 
@@ -51,8 +52,10 @@ function gameOver(){
 // Game starts with a single key press. Only the first keypress initiates action because of jQuery one() function
 function startGame(){
   $(document).one("keydown", (function(){
-  nextSequence();
+  setTimeout(function () {nextSequence();}, 1000);
   $("h1").text("Level 1");
+  $(".container").show();
+  $(".giphy-embed").hide();
 }));
 }
 
