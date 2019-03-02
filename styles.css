@@ -26,8 +26,8 @@ body {
 
 .btn {
   display: inline-block;
-  height: 250px;
-  width: 250px;
+  height: 35vh ; /*250px*/
+  width: 20vw;
   border: 5px solid black;
   /* border-radius: 20%; */
 }
@@ -69,10 +69,10 @@ body {
 .decorative-circle{
   display: inline-block;
   position: relative;
-  width: 225px;
-  height: 225px;
+  width: 25vw;
+  height: 44vh;
   background-color: black;
   border-radius: 100%;
-  bottom: 375px;
+  bottom: 407px;
   margin: auto;
 }
